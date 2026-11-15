@@ -5,3 +5,12 @@ Model-based reinforcement learning from scratch: a maze environment, **Dyna-Q** 
 The notebook includes my notes on where Dyna-Q+ struggles in non-stationary environments, and an idea for a stochastic variant combining optimistic initialisation with the time-since-visit bonus.
 
 Stack: Python, NumPy, Gymnasium, Matplotlib.
+
+## How to run
+
+```bash
+pip install numpy gymnasium matplotlib tqdm jupyter
+jupyter notebook maze.ipynb
+```
+
+Run the cells top to bottom.
